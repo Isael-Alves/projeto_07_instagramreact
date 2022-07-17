@@ -1,15 +1,14 @@
-
-export default function TopDesktop() {
+export default function Header() {
     return (
-        <nav className="Top">
-            <div className="elementTop">
-                <div className="Icons-left">
+        <nav className = "Top">
+            <div className = "elementTop">
+                <div className = "Icons-left">
                     <ion-icon name="logo-instagram"></ion-icon>
-                    <div className="barrinha"></div>
-                    <img src="/img/logo.png" alt=""></img>
+                    <div className = "barrinha"></div>
+                    <img src="/img/logo.png" alt="" />
                 </div>
-                <div className="button">Pesquisar</div>
-                <span className="Icons-right">
+                <div className = "button">Pesquisar</div>
+                <span className = "Icons-right">
                     <ion-icon name="paper-plane-outline"></ion-icon>
                     <ion-icon name="compass-outline"></ion-icon>
                     <ion-icon name="heart-outline"></ion-icon>
