@@ -224,6 +224,10 @@ svg {
     justify-content: space-between;
 }
 
+.Part-Inferior-Post svg{
+    margin-right: 4px;
+}
+
 .textInferior {
     margin-top: 5px;
     display: flex;
@@ -233,7 +237,7 @@ svg {
 .textInferior img {
     width: 20px;
     height: 20px;
-    margin-right: 3px;
+    margin-right: 8px;
     cursor: pointer;
 }
 

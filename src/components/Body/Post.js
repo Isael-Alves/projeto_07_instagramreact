@@ -1,12 +1,18 @@
+import { IoIosHeartEmpty } from 'react-icons/io';
+import { FiSend } from 'react-icons/fi';
+import { IoChatbubbleOutline } from 'react-icons/io5';
+import { VscBookmark } from 'react-icons/vsc';
+import { FaEllipsisH } from 'react-icons/fa';
+
 export default function Post(props) {
     return (
         <li className="Posts" key={props.i}>
             <div className="Part-Superior-Posts">
                 <div>
-                    <img src ={props.SupImage} alt="" />
+                    <img src={props.SupImage} alt="" />
                     <h3>{props.name}</h3>
                 </div>
-                <ion-icon name="ellipsis-horizontal"></ion-icon>
+                <FaEllipsisH />
             </div>
 
             <div className="Img-Post"><img src={props.ImagePost} alt="" /></div>
@@ -14,11 +20,11 @@ export default function Post(props) {
             <div className="Part-Inferior-Post">
                 <section>
                     <div>
-                        <ion-icon name="heart-outline"></ion-icon>
-                        <ion-icon name="chatbubble-outline"></ion-icon>
-                        <ion-icon name="paper-plane-outline"></ion-icon>
+                        <IoIosHeartEmpty />
+                        <IoChatbubbleOutline />
+                        <FiSend />
                     </div>
-                    <ion-icon name="bookmark-outline"></ion-icon>
+                    <VscBookmark />
                 </section>
                 <span className="textInferior">
                     <img src={props.InfImage} alt="" />
