@@ -72,9 +72,9 @@ aside {
     display: flex;
 }
 
-ion-icon {
-    width: 25px;
-    height: 25px;
+svg {
+    width: 21px;
+    height: 21px;
     cursor: pointer;
 }
 

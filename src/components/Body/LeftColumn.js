@@ -4,8 +4,8 @@ import PartPosts from './PartPosts'
 export default function LeftColumn(){
     return (
         <div className="ColumnLeft">
-                <BoxStorie />
-                <PartPosts />
+            <BoxStorie />
+            <PartPosts />
         </div>
     );
 }
