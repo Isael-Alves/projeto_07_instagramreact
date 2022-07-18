@@ -1,18 +1,25 @@
 import React from 'react';
 import Header from './components/Header';
+import HeaderMobile from './components/HeaderMobile';
 import Corpo from './components/Body/Corpo';
+import { FaHome } from 'react-icons/fa'
+import { AiOutlineSearch } from 'react-icons/ai'
+import { GrAddCircle } from 'react-icons/gr'
+import { IoIosHeartEmpty } from 'react-icons/io';
+import { ImCompass2 } from 'react-icons/im';
 
 export default function App() {
     return (
         <div>
             <Header />
+            <HeaderMobile />
             <Corpo />
             <footer>
-                <ion-icon name="home"></ion-icon>
-                <ion-icon name="search-outline"></ion-icon>
-                <ion-icon name="add-circle-outline"></ion-icon>
-                <ion-icon name="heart-outline"></ion-icon>
-                <ion-icon name="person-outline"></ion-icon>
+                <FaHome/>
+                <AiOutlineSearch />
+                <GrAddCircle />
+                <IoIosHeartEmpty />
+                <ImCompass2 />
             </footer>
         </div>
     );
